@@ -78,5 +78,20 @@ ul li {
 @media screen and (max-width: 576px) {
     nav{
         flex-direction: column;
+        margin-top: 20px;
+        padding: 0px;
     }
+    ul{
+        flex-direction: column;
+    }
+    ul li{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    nav{
+        flex-direction: column;
+        margin-top: 20px;
+    }  
 }
