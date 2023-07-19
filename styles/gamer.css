@@ -275,13 +275,228 @@ ul li {
     filter: brightness(60%);
 }
 
+/* play instant section style */
+.play-instant-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 430px;
+    padding-right: 240px;
+    gap: 120px;
+}
+
+.instant-title {
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.span-instant {
+    text-align: right;
+    font-size: 40px;
+    font-weight: 700;
+    /* 125% */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instant-des {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.instant-image img {
+    width: 500px;
+    height: 600px;
+}
+
+#small-img {
+    height: 150px;
+    width: 130px;
+    position: relative;
+    margin-top: -100px;
+    transform: translateX(-65px);
+}
+
+#small-img2 {
+    height: 150px;
+    width: 130px;
+    position: relative;
+    margin-top: -100px;
+    transform: translateX(-65px);
+    justify-content: end;
+    text-align: end;
+}
+
+.play-instant-text {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+/* game section */
+.game-container {
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding: 20px 200px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height: 167px;
+}
+
+.single-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: #FFF;
+    border-radius: 50px;
+}
+
+.single-game img {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+}
+
+.single-game {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.single-game img {
+    max-width: 100%;
+    height: auto;
+}
+
+.single-game p {
+    margin-top: 10px;
+}
+
+.single-game:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
+    padding: 10px;
+}
+
+.game-name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* footer stylish*/
+.footer-container {
+    background: #0B0223;
+    color: #FFF;
+    padding: 125px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer img {
+    margin-right: 10px;
+}
+
+/* .unorder-list li{
+    list-style: none;
+    text-align: center;
+}
+ */
+.unorder-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unorder-list2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+}
+
+.social a img {
+    margin-right: 15px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 
 /* resposive media query */
 @media screen and (max-width: 576px) {
+
     nav {
         flex-direction: column;
         margin-top: 20px;
         padding: 0px;
+    }
+
+
+    .instant-image img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .game-container {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        background-image: none;
+    }
+
+    .single-game {
+        flex-basis: calc(33.33% - 10px);
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .single-game img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .game-name {
+        margin-top: 10px;
+    }
+
+    @media (max-width: 576px) {
+        .single-game {
+            flex-basis: calc(50% - 10px);
+        }
+    }
+
+    .small-img {
+        display: none;
     }
 
     .online-image {
@@ -342,6 +557,11 @@ ul li {
     nav {
         flex-direction: column;
         margin-top: 20px;
+    }
+
+    .play-instant-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .banner-container {
