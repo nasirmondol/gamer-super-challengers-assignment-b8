@@ -344,6 +344,8 @@ ul li {
 
 /* game section */
 .game-container {
+    margin-right: 30px;
+    margin-left: 30px;
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -351,7 +353,6 @@ ul li {
     padding: 20px 200px;
     align-items: center;
     justify-content: center;
-    height: 427px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
@@ -359,7 +360,7 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: fit-content;
     background-color: #FFF;
     border-radius: 50px;
 }
