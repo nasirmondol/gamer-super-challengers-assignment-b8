@@ -413,15 +413,11 @@ ul li {
 .footer img {
     margin-right: 10px;
 }
+
 .gamer-title{
     color: #FFF;
 }
 
-/* .unorder-list li{
-    list-style: none;
-    text-align: center;
-}
- */
 .unorder-list {
     display: flex;
     align-items: center;
