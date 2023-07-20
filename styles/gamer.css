@@ -711,6 +711,8 @@ li a {
         gap: 40px;
         align-items: center;
         justify-content: space-between;
+        background-image: none;
+        height: auto;
     }
 
     .game-name {
