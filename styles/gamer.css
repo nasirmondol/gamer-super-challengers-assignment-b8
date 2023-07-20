@@ -616,9 +616,35 @@ li a {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .unorder-list2 li a {
+        font-size: xx-small;
+        font-weight: 100;
+    }
+
     .footer-copyright {
         width: 100%;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-small;
+        font-weight: 100;
+    }
+
+    .social {
+        padding-top: 10px;
+        padding-left: 23px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social>a>img {
+        margin-bottom: 20px;
+        display: grid;
+        width: 25%;
+        margin: 0 auto;
         justify-content: center;
         align-items: center;
     }
@@ -669,8 +695,15 @@ li a {
         padding: 0px;
     }
 
-    .game-container {
+    .container-game {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .game-name {
+        font-size: small;
+        padding: 0px 4px;
     }
 }
