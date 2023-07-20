@@ -529,6 +529,13 @@ li a {
         padding: 0px 0px;
         gap: 0px;
     }
+    .play-instant-text{
+        flex: 1;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        font-size: xx-small;
+    }
 
     .instant-image img {
         /* width: 200px;
@@ -705,5 +712,24 @@ li a {
     .game-name {
         font-size: small;
         padding: 0px 4px;
+    }
+    .big-img{
+        width: 10px;
+    }
+    .play-instant-container{
+        display: grid;
+        padding:  0px 300px;
+        gap: 0;
+    }
+    .play-instant-text{
+        flex: 1;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        font-size: small;
+    }
+    .instant-image{
+        flex: 1;
+        width: auto;
     }
 }
