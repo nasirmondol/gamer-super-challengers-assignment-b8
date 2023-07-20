@@ -529,7 +529,8 @@ li a {
         padding: 0px 0px;
         gap: 0px;
     }
-    .play-instant-text{
+
+    .play-instant-text {
         flex: 1;
         display: grid;
         align-items: center;
@@ -709,27 +710,51 @@ li a {
         align-items: center;
         justify-content: space-between;
     }
+
     .game-name {
         font-size: small;
         padding: 0px 4px;
     }
-    .big-img{
+
+    .big-img {
         width: 10px;
     }
-    .play-instant-container{
+
+    .play-instant-container {
         display: grid;
-        padding:  0px 300px;
+        padding: 0px 300px;
         gap: 0;
     }
-    .play-instant-text{
+
+    .play-instant-text {
         flex: 1;
         display: grid;
         align-items: center;
         justify-content: center;
-        font-size: small;
+        font-size: smaller;
+        padding-left: 50px;
     }
-    .instant-image{
+
+    .instant-image {
         flex: 1;
         width: auto;
+    }
+
+    .unorder-list2 li a {
+        font-size: x-small;
+        font-weight: 100;
+    }
+
+    .unorder-list li a {
+        font-size: x-small;
+        font-weight: 100;
+    }
+    .footer-copyright {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: x-small;
+        font-weight: 100;
     }
 }
